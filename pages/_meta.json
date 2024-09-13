@@ -1,0 +1,14 @@
+{
+    "about": {
+        "title": "About",
+        "type": "page"
+    },
+    "frameworks": {
+        "title": "Frameworks",
+        "type": "page"
+    },
+    "fruits": {
+        "title": "Fruits",
+        "type": "page"
+    }
+}
