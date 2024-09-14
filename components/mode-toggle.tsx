@@ -22,17 +22,18 @@ export function ModeToggle() {
   if (!mounted) return null;
 
   return (
-    <button
+    <div className="flex items-center justify-center">
+      <button
       title="Toggle Theme"
       onClick={toggleTheme}
       className="
-        w-12 
-        h-6 
+        w-12
+        h-6
+        p-[1.8px]
         rounded-full
         border
         border-zinc-400
         dark:border-zinc-600
-        p-[2px]
         bg-gray-200
         dark:bg-gray-800
         relative 
@@ -50,14 +51,14 @@ export function ModeToggle() {
         id="toggle"
         className="
         flex justify-center items-center
-          rounded-full 
+          rounded-full p-[2px]
           w-5
           h-5
           bg-white
           dark:bg-black
           relative
           ml-0
-          dark:ml-6 
+          dark:ml-[22.5px]
           pointer-events-none 
           transition-all 
           duration-300 
@@ -65,11 +66,12 @@ export function ModeToggle() {
         "
       >
         {resolvedTheme === "light" ? (
-          <Sun className="w-4 h-4 text-gray-800" />
+          <Sun className="w-3 h-3 text-gray-800" />
         ) : (
-          <Moon className="w-4 h-4 text-gray-200" />
+          <Moon className="w-3 h-3 text-gray-200" />
         )}
       </div>
     </button>
+    </div> 
   );
 }
