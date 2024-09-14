@@ -8,6 +8,13 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	fontFamily: {
+		kanit: ["Kanit", "sans-serif"],
+		poppins: ["Poppins", "sans-serif"],
+		ubuntu: ["Ubuntu", "sans-serif"],
+		openSans: ["Open Sans", "system-ui"],
+		raleway: ["Raleway", "system-ui"],
+	},
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
