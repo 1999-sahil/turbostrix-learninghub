@@ -1,6 +1,6 @@
 export const navigationLinks = [
-    { title: "Docs", href: "" },
+    { title: "Documentations", href: "" },
     { title: "Playground", href: "" },
-    { title: "Web", href: "" },
+    { title: "Web Editor", href: "" },
     { title: "Learn", href: "" },
 ];

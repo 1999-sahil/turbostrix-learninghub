@@ -25,11 +25,11 @@ function Navbar() {
 
       <div className='hidden md:flex items-center'>
         {/** navigation links */}
-        <div className='flex gap-4 border-r pr-4 dark:border-zinc-700'>
+        <div className='flex gap-6 border-r pr-4 dark:border-zinc-700'>
           {navigationLinks.map((link, index) => (
             <div
               key={index}
-              className='text-base font-poppins font-medium text-[#333] dark:text-zinc-300 hover:text-[#5645ee] dark:hover:text-[#5645ee]'
+              className='text-sm font-poppins font-medium text-[#333] dark:text-zinc-300 hover:text-[#5645ee] dark:hover:text-[#8274fb]'
             >
               <Link href={link.href}>
                 <h2>{link.title}</h2>
