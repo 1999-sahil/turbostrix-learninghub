@@ -4,7 +4,7 @@ import BannerMain from './banner-main'
 
 function Banner() {
   return (
-    <div className='flex items-center overflow-hidden px-24 py-16'>
+    <div className='flex items-center overflow-hidden px-20 py-16'>
 
       {/** homepage main section */}
       <div className='w-1/2 flex items-center justify-start'>
