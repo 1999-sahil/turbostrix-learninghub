@@ -4,7 +4,7 @@ import { RxDividerVertical } from 'react-icons/rx'
 
 function BannerCssCard() {
   return (
-    <div className='w-[300px] h-[140px] bg-zinc-200 dark:bg-[#28282b] px-3 rounded-[6px] shadow-xl drop-shadow-xl'>
+    <div className='w-[280px] h-[130px] sm:w-[300px] sm:h-[140px] border-t xl:border-none border-zinc-200 dark:border-zinc-900/50 bg-zinc-100 dark:bg-[#28282b] px-3 rounded-[6px] shadow-xl drop-shadow-xl'>
         <div className='flex items-center justify-between py-2'>
             <div className='flex items-center gap-2'>
                 <span className='text-base text-zinc-500 dark:text-zinc-500'><FaCss3Alt /></span>
@@ -33,11 +33,11 @@ function BannerCssCard() {
                     <span className='text-emerald-600 dark:text-emerald-400'>{" 0%"}</span>
                     <span>,</span>
                 </p>
-                <p>
+                <p className='flex'>
                     <span className='text-yellow-700 dark:text-yellow-500 pl-8'>$dark-gray</span>
                     <span className='text-emerald-600 dark:text-emerald-400'>{" 100%"}</span>
                     <span>{"); }"}</span>
-                    <span className='pl-6 animate-ping ease-in-out duration-350'>
+                    <span className='pl-6 animate-pulse duration-200'>
                         <RxDividerVertical className='text-lg' />
                     </span>
                 </p>

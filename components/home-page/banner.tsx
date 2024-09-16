@@ -4,15 +4,15 @@ import BannerMain from './banner-main'
 
 function Banner() {
   return (
-    <div className='flex items-center overflow-hidden px-20 py-16'>
+    <div className='flex flex-col-reverse xl:flex-row gap-6 xl:gap-0 items-center overflow-hidden px-5 xl:px-20 py-8 xl:py-12'>
 
       {/** homepage main section */}
-      <div className='w-1/2 flex items-center justify-start'>
+      <div className='w-full xl:w-1/2 flex items-center justify-center xl:justify-start'>
         <BannerMain />
       </div>
 
       {/** homepage image section */}
-      <div className='w-1/2 flex items-center justify-end'>
+      <div className='w-full xl:w-1/2 flex items-center xl:justify-end'>
         <BannerAnonBox />
       </div>
     </div>

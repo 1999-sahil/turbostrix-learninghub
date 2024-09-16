@@ -23,9 +23,9 @@ function Navbar() {
     <div className='w-full h-16 flex items-center justify-between border-b border-zinc-300 dark:border-black px-5 md:px-8'>
       <NavLogo />
 
-      <div className='hidden md:flex items-center'>
+      <div className='flex items-center'>
         {/** navigation links */}
-        <div className='flex gap-6 border-r pr-4 dark:border-zinc-700'>
+        <div className='hidden lg:flex gap-6 border-r pr-4 dark:border-zinc-700'>
           {navigationLinks.map((link, index) => (
             <div
               key={index}
@@ -38,12 +38,12 @@ function Navbar() {
           ))}
         </div>
 
-        <div className='px-4'>
+        <div className='hidden lg:flex px-4'>
           <ModeToggle />
         </div>
 
         {/** social links */}
-        <div className='flex items-center gap-6 border-l pl-4 dark:border-zinc-700'>
+        <div className='hidden lg:flex items-center gap-6 border-l pl-4 dark:border-zinc-700'>
           <Link href="" className='text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white'>
             <FaGithub className='text-2xl' />
           </Link>
@@ -57,7 +57,7 @@ function Navbar() {
       </div>
 
       {/** mobile-mode */}
-      <div className="md:hidden flex items-center justify-center ">
+      <div className="lg:hidden flex items-center justify-center ">
         <div onClick={toggleMenu} className="cursor-pointer">
           <CgMenuRight className='text-2xl' />
         </div>
