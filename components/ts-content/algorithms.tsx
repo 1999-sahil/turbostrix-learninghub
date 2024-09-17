@@ -22,11 +22,11 @@ function Algorithms() {
             Types of Algorithms
           </h3>
           <div className="mt-1 flex flex-col gap-1">
-            <div className="grid grid-cols-4 lg:grid-cols-3 gap-1 text-zinc-800 dark:text-white">
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-1 text-zinc-800 dark:text-white">
               {topics.map((topic, index) => (
                 <h2
                   key={index}
-                  className="h-[104px] lg:h-[144px] bg-[#f6f6f7] dark:bg-[#202127] hover:bg-[#efefef] dark:hover:bg-white hover:text-black dark:hover:text-black cursor-pointer w-full flex items-center justify-center font-kanit font-semibold text-center text-sm md:text-base lg:text-xl xl:text-2xl"
+                  className="h-[104px] lg:h-[144px] bg-[#f6f6f7] dark:bg-[#202127] hover:bg-[#efefef] dark:hover:bg-white hover:text-black dark:hover:text-black cursor-pointer w-full flex items-center justify-center font-kanit font-semibold text-center text-sm md:text-base lg:text-xl xl:text-2xl transition duration-500"
                 >
                   {topic}
                 </h2>

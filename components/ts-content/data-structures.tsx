@@ -20,7 +20,7 @@ function DataStructures() {
           {topics.map((topic, index) => (
             <h2
               key={index}
-              className="h-[134px] lg:h-[184px] bg-[#f6f6f7] dark:bg-[#202127] hover:bg-[#efefef] dark:hover:bg-white hover:text-black dark:hover:text-black cursor-pointer w-full flex items-center justify-center font-kanit font-semibold text-3xl"
+              className="h-[134px] lg:h-[184px] transition duration-500 bg-[#f6f6f7] dark:bg-[#202127] hover:bg-[#efefef] dark:hover:bg-white hover:text-black dark:hover:text-black cursor-pointer w-full flex items-center justify-center font-kanit font-semibold text-3xl"
             >
               {topic}
             </h2>
