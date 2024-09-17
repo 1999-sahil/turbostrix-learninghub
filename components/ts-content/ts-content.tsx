@@ -1,5 +1,6 @@
 import React from 'react'
 import DataStructures from './data-structures'
+import Reactjs from './react-js'
 
 function TSContent() {
   return (
@@ -13,14 +14,16 @@ function TSContent() {
         </div>
 
         {/** tech sections */}
-        <div>
+        <div className='flex flex-col gap-1'>
             {/** data structures */}
             <section>
                 <DataStructures />
             </section>
 
             {/** react.js */}
-            <section>react</section>
+            <section>
+                <Reactjs />
+            </section>
 
             {/** algorithm */}
             <section>algorithm</section>
