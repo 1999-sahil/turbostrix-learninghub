@@ -1,8 +1,3 @@
-import { BsDatabaseFillLock } from "react-icons/bs";
-import { FaJava, FaNodeJs, FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5"
-import { MdDataObject } from "react-icons/md";
-
 import JS from "../public/features/javascript.svg";
 import Algorithm from "../public/features/algorithm.svg";
 import Reactjs from "../public/features/reactjs.svg";
