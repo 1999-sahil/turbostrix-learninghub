@@ -16,11 +16,11 @@ function Reactjs() {
         Essentials of React.js
       </h3>
       <div className="mt-1 flex flex-col gap-1">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 text-zinc-800 dark:text-white">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-1 text-zinc-800 dark:text-white">
           {topics.map((topic, index) => (
             <h2
               key={index}
-              className="h-[134px] lg:h-[184px] bg-[#f6f6f7] dark:bg-[#202127] hover:bg-[#efefef] dark:hover:bg-white hover:text-black dark:hover:text-black cursor-pointer w-full flex items-center justify-center font-kanit font-semibold text-3xl"
+              className="h-[134px] lg:h-[184px] bg-[#f6f6f7] dark:bg-[#202127] hover:bg-[#efefef] dark:hover:bg-white hover:text-black dark:hover:text-black cursor-pointer w-full flex items-center justify-center font-kanit font-semibold text-center text-xl lg:text-3xl"
             >
               {topic}
             </h2>

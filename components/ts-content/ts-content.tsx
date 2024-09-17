@@ -1,6 +1,7 @@
 import React from 'react'
 import DataStructures from './data-structures'
 import Reactjs from './react-js'
+import Algorithms from './algorithms'
 
 function TSContent() {
   return (
@@ -26,7 +27,9 @@ function TSContent() {
             </section>
 
             {/** algorithm */}
-            <section>algorithm</section>
+            <section>
+                <Algorithms />
+            </section>
 
             {/** backend/api */}
             <section>backend-api</section>
