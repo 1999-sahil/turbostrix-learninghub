@@ -17,7 +17,7 @@ function HomeTSCodeIde() {
         />
       </div>
       {/** content */}
-      <div>
+      <div className="flex flex-col space-y-20 lg:space-y-40">
         <TSCodeIde />
         <TSDocs />
       </div>
