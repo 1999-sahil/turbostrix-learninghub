@@ -1,3 +1,4 @@
+import CustomButton from "@/components/button";
 import Features from "@/components/home-features/Features";
 import Banner from "@/components/home-page/banner";
 import HomeTSCodeIde from "@/components/ts-code-editor/homepage-ts-code-editor";
@@ -24,6 +25,18 @@ export default function Home() {
       {/** code editor section */}
       <section className="mt-[80px] px-5 xl:px-20 py-8 xl:py-12">
         <HomeTSCodeIde />
+      </section>
+
+      {/** buttons */}
+      <section className="flex items-center justify-center">
+        <CustomButton
+          href=""
+          text="Code Editor"
+          textOnHover=""
+          borderOnHover=""
+          textOnHoverDark=""
+          borderOnHoverDark=""
+        />
       </section>
 
       <div className="w-full h-[2px] bg-zinc-200 dark:bg-black my-[50px]" />
