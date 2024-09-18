@@ -3,6 +3,8 @@ import Features from "@/components/home-features/Features";
 import Banner from "@/components/home-page/banner";
 import HomeTSCodeIde from "@/components/ts-code-editor/homepage-ts-code-editor";
 import TSContent from "@/components/ts-content/ts-content";
+import { AiFillThunderbolt, AiOutlineCode } from "react-icons/ai";
+import { PiBracketsCurlyBold } from "react-icons/pi";
 
 export default function Home() {
   return (
@@ -28,14 +30,35 @@ export default function Home() {
       </section>
 
       {/** buttons */}
-      <section className="flex items-center justify-center">
+      <section className="flex flex-row gap-4 lg:gap-8 my-[50px] items-center justify-center">
         <CustomButton
           href=""
           text="Code Editor"
-          textOnHover=""
-          borderOnHover=""
-          textOnHoverDark=""
-          borderOnHoverDark=""
+          textOnHover="#d45656"
+          borderOnHover="#d45656"
+          textOnHoverDark="#d45656"
+          borderOnHoverDark="#d45656"
+          icon={<PiBracketsCurlyBold />}
+        />
+
+        <CustomButton
+          href=""
+          text="Documentations"
+          textOnHover="#33b864"
+          borderOnHover="#33b864"
+          textOnHoverDark="#33b864"
+          borderOnHoverDark="#33b864"
+          icon={<AiFillThunderbolt />}
+        />
+
+        <CustomButton
+          href=""
+          text="Web IDE"
+          textOnHover="#f67280"
+          borderOnHover="#f67280"
+          textOnHoverDark="#f67280"
+          borderOnHoverDark="#f67280"
+          icon={<AiOutlineCode />}
         />
       </section>
 
