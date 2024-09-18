@@ -30,7 +30,7 @@ export default function Home() {
       </section>
 
       {/** buttons */}
-      <section className="flex flex-row gap-4 lg:gap-8 my-[50px] items-center justify-center">
+      <section className="flex flex-col lg:flex-row gap-4 lg:gap-8 px-5 py-2 my-[50px] items-center justify-center">
         <CustomButton
           href=""
           text="Code Editor"

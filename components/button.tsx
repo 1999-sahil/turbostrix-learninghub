@@ -23,10 +23,10 @@ function CustomButton({
     icon
 }: CustomButtonProps) {
   return (
-    <Link href={href}>
+    <Link href={href} className='w-full lg:w-[20%] flex items-center justify-center'>
         <button
         className={`
-          flex items-center gap-2 px-3.5 py-1.5 lg:px-5 lg:py-2.5 text-xs lg:text-base font-poppins font-bold rounded-full transition duration-500
+          flex items-center justify-center whitespace-nowrap w-[60%] lg:w-full gap-2 px-3.5 py-2.5 md:px-4 md:py-3 xl:px-5 xl:py-2.5 text-xs lg:text-base font-poppins font-bold rounded-full transition duration-500
           text-[rgba(60,60,67,0.78)] dark:text-[rgba(235,235,245,0.6)]
           border border-[rgba(60,60,67,0.78)] dark:border-[rgba(235,235,245,0.6)]
         `}

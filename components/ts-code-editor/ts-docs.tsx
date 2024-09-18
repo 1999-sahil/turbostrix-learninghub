@@ -24,29 +24,31 @@ function TSDocs() {
             <Link href="">
               <button className="flex items-center gap-2 bg-[#5645ee] hover:bg-[#4534dd] rounded-full mt-6 font-poppins font-semibold text-white text-base lg:text-sm px-5 py-2.5">
                 <FaArrowRight />
-                Try Code IDE
+                Go to Docs
               </button>
             </Link>
           </div>
-            <div className='bg-[#f6f6f7] dark:bg-[#202127] w-full lg:w-[70%] h-[400px] lg:h-[600px] relative rounded-[24px]'>
+            <div className='bg-[#f6f6f7] dark:bg-[#202127] p-3 rounded-[30px] w-full lg:w-[70%] h-[400px] lg:h-[600px]'>
+            <div className='bg-gradient-to-b from-purple-300 to-indigo-300 dark:from-purple-900 dark:to-indigo-900 w-full h-full relative rounded-[24px]'>
                 <div className='absolute bottom-0 right-0 z-10'>
                     <Image
-                        src="/code-ide/docs-1.png"
+                        src="/code-ide/docs-5.webp"
                         alt=''
-                        width={380}
+                        width={680}
                         height={300}
-                        className='rounded-tl-[16px] lg:w-[600px] lg:h-[300px]'
+                        className='rounded-tl-[16px] max-md:rounded-bl-[16px] max-md:rounded-br-[16px] lg:w-[680px] lg:h-[300px]'
                     />
                 </div>
                 <div className='absolute top-10 lg:top-12 right-0'>
                     <Image
                         src="/code-ide/docs-3.png"
                         alt=''
-                        width={320}
-                        height={300}
+                        width={300}
+                        height={400}
                         className='rounded-tl-[16px] lg:w-[550px] lg:h-[250px]'
                     />
                 </div>
+            </div>
             </div>
         </section>
     </div>
@@ -54,3 +56,5 @@ function TSDocs() {
 }
 
 export default TSDocs
+
+//bg-[#f6f6f7] dark:bg-[#202127]
