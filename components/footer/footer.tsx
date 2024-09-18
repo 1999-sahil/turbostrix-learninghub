@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <div className="flex items-center justify-between px-16 border-t-2 border-zinc-200 dark:border-black py-6 mx-2">
+    <div className="flex items-center justify-between px-16 py-6">
       {/** left section (app details) */}
       <div className='flex flex-col gap-2'>
         <div className='flex items-center gap-3 text-sm'>
