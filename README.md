@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## TurboStrix - MDX Learning Platform
 
-A learning platform where you can learn about development technologies which are used in Frontend, Backend and Full Stack development.
+A learning platform where you can learn about Data structures, Algorithm, development technologies which are used in Frontend, Backend and Full Stack development and many more in a MDX format.
