@@ -29,3 +29,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## TurboStrix - Learning Platform
 
 A learning platform where you can learn and practice about Data structures, Programming language, Algorithm, development technologies which are used in Frontend, Backend and Full Stack development and many more in a MDX format.
+You can practice coding in our hand made code editor for smooth coding experience.
