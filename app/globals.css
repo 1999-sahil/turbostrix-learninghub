@@ -22,3 +22,66 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-position: top left;
 }
+
+/* Category Styles */
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+}
+
+.slider {
+  width: 100%;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  position: relative;
+}
+
+.slider .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider .icon:first-child {
+  left: 0;
+}
+
+.slider .icon:last-child {
+  justify-content: flex-end;
+  right: 0;
+}
+
+.slider .tabs {
+  list-style: none;
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: auto;
+}
+
+.slider .tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs .tab {
+  white-space: nowrap;
+  background-color: gray;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  transition: .2s ease-in-out;
+}
+
+.tabs .tab:hover {
+  background-color: red;
+  cursor: pointer;
+}

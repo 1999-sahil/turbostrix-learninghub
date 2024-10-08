@@ -1,8 +1,13 @@
 import React from 'react'
+import Categories from '../categories/Categories'
+import DocCards from './doc-cards'
 
 function CoursesCard() {
   return (
-    <div>CoursesCard</div>
+    <div>
+      <Categories />
+      <DocCards />
+    </div>
   )
 }
 

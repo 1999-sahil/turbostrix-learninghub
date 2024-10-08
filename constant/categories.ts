@@ -1,0 +1,17 @@
+export const categoryFilters = [
+    "All",
+    "Data Structures",
+    "Algorithms",
+    "ReactJs",
+    "NodeJs",
+    "Database",
+    "API",
+    "Programming",
+    "System Design",
+    "HTML",
+    "CSS",
+    "Operating System",
+    "Computer Networks",
+    "DBMS",
+    "Projects",
+];
