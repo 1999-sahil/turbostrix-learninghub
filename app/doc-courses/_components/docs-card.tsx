@@ -22,7 +22,7 @@ function DocsCard({
   redirectLink,
 }: DocsCardProps) {
   return (
-    <div className="h-[16rem] lg:h-[18rem] w-[16rem] lg:w-[18rem] shadow-lg flex flex-col cursor-grab gap-4 border border-zinc-300 dark:border-zinc-800 pt-4 pb-10 relative rounded-[12px]">
+    <div className="h-[16rem] lg:h-[18rem] w-[16rem] lg:w-[18rem] bg-white dark:bg-zinc-900 flex flex-col cursor-grab gap-4 border border-zinc-300 dark:border-zinc-800 pt-4 pb-10 relative rounded-[12px]">
       <div className="flex items-baseline gap-2 font-poppins px-3">
         <h2 className="text-zinc-500 dark:text-zinc-600 font-semibold text-[10px] lg:text-xs">
           {serialNumber} /
@@ -39,12 +39,12 @@ function DocsCard({
           alt="course-image"
           width={60}
           height={60}
-          className="z-10 max-md:w-[50px] max-md:h-[50px] rounded-full p-2 bg-zinc-200 dark:bg-zinc-800 border border-zinc-400/50 dark:border-zinc-600"
+          className="z-10 max-md:w-[50px] max-md:h-[50px] rounded-full p-2 bg-zinc-100 dark:bg-zinc-800 border border-zinc-300/50 dark:border-zinc-700"
         />
       </div>
       <div className="flex flex-col gap-4 px-3">
         <div className="flex gap-2">
-          <span className="flex items-center justify-center px-1 py-[2px] lg:px-2 lg:py-1 text-[8px] md:text-xs font-openSans font-medium bg-zinc-300 dark:bg-zinc-700 rounded-[4px]">
+          <span className="flex items-center justify-center px-1 py-[2px] lg:px-2 lg:py-1 text-[8px] md:text-xs font-openSans font-medium bg-gray-200 dark:bg-gray-800 rounded-[4px]">
             {chapters} Chapters
           </span>
           <span className="flex items-center justify-center px-1 py-[2px] lg:px-2 lg:py-1 text-[8px] md:text-xs font-poppins font-semibold bg-yellow-500 text-black rounded-[4px]">

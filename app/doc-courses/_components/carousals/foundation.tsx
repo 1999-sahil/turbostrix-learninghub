@@ -28,7 +28,7 @@ function FoundationDoc() {
       >
         <CarouselContent>
           {foundation.map((card, index) => (
-            <CarouselItem key={index} className="basis-3/2 xl:basis-[26%]">
+            <CarouselItem key={index} className="basis-3/2 xl:basis-[29%]">
               <div className="">
                 <DocsCard
                   serialNumber={card.serialNumber}

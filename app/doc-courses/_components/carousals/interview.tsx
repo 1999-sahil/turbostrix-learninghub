@@ -11,12 +11,12 @@ import {
 import { foundation } from '@/constant/docs-card'
 import SectionTitle from '../section-title'
 
-function FrontendDevDoc() {
+function Interview() {
   return (
     <div className='flex flex-col gap-4 lg:gap-6'>
       <div className='flex items-center justify-between'>
-        <SectionTitle title="Frontend Development" />
-        <ExploreButton linkSrc='/doc-courses/frontend-dev' />
+        <SectionTitle title="Interview" />
+        <ExploreButton linkSrc='/doc-courses/interview' />
       </div>
 
       {/* ************* */}
@@ -50,4 +50,4 @@ function FrontendDevDoc() {
   )
 }
 
-export default FrontendDevDoc
+export default Interview

@@ -4,13 +4,13 @@ import PageHeading from '../_components/page-heading'
 import { foundation } from '@/constant/docs-card'
 import ExploredCard from '../_components/explored-card'
 
-function Foundation() {
+function FrontendDev() {
   return (
-    <div className='flex flex-col gap-5 border-l-2 border-r-2 border-zinc-300 dark:border-black px-4 py-5'>
+    <div className='flex flex-col gap-5 border-l-2 border-r-2 border-zinc-300 dark:border-black px-8 py-5'>
       <BackToPage href="/doc-courses/" />
       <PageHeading title="Build Your Foundation" />
       
-      <div className='mt-5 bg-gray-50 dark:bg-zinc-800/20 p-4 lg:p-8 rounded-[20px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+      <div className='mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
         {foundation.map((data, index) => (
           <div key={index}>
             <ExploredCard
@@ -29,4 +29,4 @@ function Foundation() {
   )
 }
 
-export default Foundation
+export default FrontendDev

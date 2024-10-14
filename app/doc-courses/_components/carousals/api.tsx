@@ -16,7 +16,7 @@ function APIDoc() {
     <div className='flex flex-col gap-4 lg:gap-6'>
       <div className='flex items-center justify-between'>
         <SectionTitle title="Learn all about API's" />
-        <ExploreButton linkSrc='/doc-courses/foundation' />
+        <ExploreButton linkSrc='/doc-courses/api-doc' />
       </div>
 
       {/* ************* */}
@@ -28,7 +28,7 @@ function APIDoc() {
       >
         <CarouselContent>
           {foundation.map((card, index) => (
-            <CarouselItem key={index} className="basis-3/2 xl:basis-[26%]">
+            <CarouselItem key={index} className="basis-3/2 xl:basis-[29%]">
               <div className="">
                 <DocsCard
                   serialNumber={card.serialNumber}
